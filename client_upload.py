@@ -27,8 +27,8 @@ def generate_upload_chunks(filepath, title):
 
 
 def main():
-    local_video_path = "C:/Users/sauld/Videos/Captures/2025-10-22-22-40-15.mp4"
-    video_title = "No se"
+    local_video_path = "E:/Archivos/Videos/OBS/2021-12-04 02-42-38.mp4"
+    video_title = "Video de prueba"
 
     if not os.path.exists(local_video_path):
         print(f"[CLIENT] No se encontró el archivo local: {local_video_path}")
